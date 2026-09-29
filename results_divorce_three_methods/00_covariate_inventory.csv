@@ -1,0 +1,32 @@
+type,stream,waves_available,construction
+time-invariant,H1AGE,T1,
+time-invariant,W1AGE,T1,
+time-invariant,H1ACE,T1,
+time-invariant,W1ACE,T1,
+time-invariant,H1PARENTMARR,T1,
+time-invariant,W1PARENTMARR,T1,
+time-invariant,H1ABUSE,T1,
+time-invariant,W1ABUSE,T1,
+time-invariant,H1EDUC,T1,
+time-invariant,W1EDUC,T1,
+time-invariant,T1_household_comp,T1,
+time-invariant,T1_Couple_unemployment,T1,
+time-invariant,T1_Neighbor_Employ,T1,
+time-invariant,T1_Neighbor_Income,T1,
+time-invariant,T1_Couple_Hostility,T1,
+time-invariant,T1_Income,T1,
+time-invariant,H1POS,T1,
+time-invariant,W1POS,T1,
+time-invariant,H1NEG,T1,
+time-invariant,W1NEG,T1,
+time-invariant,H1EFF,T1,
+time-invariant,W1EFF,T1,
+time-invariant,H1Substance,T1,
+time-invariant,W1Substance,T1,
+time-invariant,H1Neg_Affect,T1,
+time-invariant,W1Neg_Affect,T1,
+time-varying,W_rel_sat,"T1,T2,T3,T4,T5,T6,T7,T8,T9,T10",original longitudinal column
+time-varying,H_rel_sat,"T1,T2,T3,T4,T5,T6,T7,T8,T9,T10",original longitudinal column
+time-varying,W_stress,"T1,T2,T3,T4,T5,T6,T7",original longitudinal column
+time-varying,H_stress,"T1,T2,T3,T4,T5,T6,T7",original longitudinal column
+time-varying,Couple_Fin_Strain,"T1,T2,T3,T4,T5,T6,T7,T8,T9,T10",wave-specific husband/wife mean

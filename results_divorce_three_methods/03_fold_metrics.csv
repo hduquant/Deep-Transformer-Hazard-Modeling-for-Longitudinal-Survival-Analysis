@@ -1,0 +1,181 @@
+fold,method,metric,value
+1,Landmark Transformer,AUC@3,0.8222701496138995
+1,Landmark Transformer,Risk_C-index@3,0.6885627189769473
+1,Landmark Transformer,Brier@3,0.15610114721398277
+1,Landmark Transformer,Binary_NLL@3,0.4662053227350345
+1,Landmark Transformer,ECE@3,0.08141371928087424
+1,Landmark Transformer,AUC@5,0.792034097589653
+1,Landmark Transformer,Risk_C-index@5,0.7237214663359256
+1,Landmark Transformer,Brier@5,0.16980785272817997
+1,Landmark Transformer,Binary_NLL@5,0.5178493014844495
+1,Landmark Transformer,ECE@5,0.0893376425498163
+1,Landmark Transformer,MAE_event_time,2.5422727272727275
+1,Landmark Transformer,EventTime_C-index,0.5605650728120691
+1,Time-dependent Cox: landmark-aligned,AUC@3,0.7782471645752895
+1,Time-dependent Cox: landmark-aligned,Risk_C-index@3,0.6714470463257232
+1,Time-dependent Cox: landmark-aligned,Brier@3,0.18142472710829113
+1,Time-dependent Cox: landmark-aligned,Binary_NLL@3,0.5341064500714419
+1,Time-dependent Cox: landmark-aligned,ECE@3,0.1168128495076679
+1,Time-dependent Cox: landmark-aligned,AUC@5,0.7455026455026456
+1,Time-dependent Cox: landmark-aligned,Risk_C-index@5,0.6844821969981775
+1,Time-dependent Cox: landmark-aligned,Brier@5,0.189960601467516
+1,Time-dependent Cox: landmark-aligned,Binary_NLL@5,0.5603805792346412
+1,Time-dependent Cox: landmark-aligned,ECE@5,0.11545171296205947
+1,Time-dependent Cox: landmark-aligned,MAE_event_time,1.4589772727272727
+1,Time-dependent Cox: landmark-aligned,EventTime_C-index,0.47106853874273885
+1,RDSM,AUC@3,0.8402931949806949
+1,RDSM,Risk_C-index@3,0.7212121512037689
+1,RDSM,Brier@3,0.17724874778212485
+1,RDSM,Binary_NLL@3,0.5069222548117558
+1,RDSM,ECE@3,0.14411083000153813
+1,RDSM,AUC@5,0.8247795414462082
+1,RDSM,Risk_C-index@5,0.7499812072464866
+1,RDSM,Brier@5,0.1765622801639436
+1,RDSM,Binary_NLL@5,0.5181280236349106
+1,RDSM,ECE@5,0.11629685487315244
+1,RDSM,MAE_event_time,1.4850378787878789
+1,RDSM,EventTime_C-index,0.4740401647875185
+2,Landmark Transformer,AUC@3,0.754940138421432
+2,Landmark Transformer,Risk_C-index@3,0.609207084263882
+2,Landmark Transformer,Brier@3,0.16875832294177592
+2,Landmark Transformer,Binary_NLL@3,0.5030689645038902
+2,Landmark Transformer,ECE@3,0.06635675514544143
+2,Landmark Transformer,AUC@5,0.6396167934629473
+2,Landmark Transformer,Risk_C-index@5,0.6118518518518782
+2,Landmark Transformer,Brier@5,0.20212097341153967
+2,Landmark Transformer,Binary_NLL@5,0.5924466284049716
+2,Landmark Transformer,ECE@5,0.059025092561808136
+2,Landmark Transformer,MAE_event_time,2.6228684807256233
+2,Landmark Transformer,EventTime_C-index,0.4906283325235646
+2,Time-dependent Cox: landmark-aligned,AUC@3,0.65112745177742
+2,Time-dependent Cox: landmark-aligned,Risk_C-index@3,0.5588823091475964
+2,Time-dependent Cox: landmark-aligned,Brier@3,0.19208489017791913
+2,Time-dependent Cox: landmark-aligned,Binary_NLL@3,0.5959616186798453
+2,Time-dependent Cox: landmark-aligned,ECE@3,0.13449063703314568
+2,Time-dependent Cox: landmark-aligned,AUC@5,0.6151028458720765
+2,Time-dependent Cox: landmark-aligned,Risk_C-index@5,0.586074074074092
+2,Time-dependent Cox: landmark-aligned,Brier@5,0.20774723737661113
+2,Time-dependent Cox: landmark-aligned,Binary_NLL@5,0.6345283254660636
+2,Time-dependent Cox: landmark-aligned,ECE@5,0.10883215586405245
+2,Time-dependent Cox: landmark-aligned,MAE_event_time,1.9553628117913837
+2,Time-dependent Cox: landmark-aligned,EventTime_C-index,0.4549596311498433
+2,RDSM,AUC@3,0.652365873751416
+2,RDSM,Risk_C-index@3,0.5329610884576218
+2,RDSM,Brier@3,0.18729707059296213
+2,RDSM,Binary_NLL@3,0.5520566611420183
+2,RDSM,ECE@3,0.10978355858884715
+2,RDSM,AUC@5,0.5782223474531166
+2,RDSM,Risk_C-index@5,0.5522424242424561
+2,RDSM,Brier@5,0.20927580205262974
+2,RDSM,Binary_NLL@5,0.6090120211151413
+2,RDSM,ECE@5,0.04390159126686202
+2,RDSM,MAE_event_time,1.9245918367346941
+2,RDSM,EventTime_C-index,0.46081942528851133
+3,Landmark Transformer,AUC@3,0.6919239666620297
+3,Landmark Transformer,Risk_C-index@3,0.5706874831575051
+3,Landmark Transformer,Brier@3,0.17344338393969932
+3,Landmark Transformer,Binary_NLL@3,0.5182657053698373
+3,Landmark Transformer,ECE@3,0.055878633975573314
+3,Landmark Transformer,AUC@5,0.6920469576719577
+3,Landmark Transformer,Risk_C-index@5,0.6193016965822459
+3,Landmark Transformer,Brier@5,0.1934539137732655
+3,Landmark Transformer,Binary_NLL@5,0.5743321732967155
+3,Landmark Transformer,ECE@5,0.0785715312558648
+3,Landmark Transformer,MAE_event_time,2.893007936507936
+3,Landmark Transformer,EventTime_C-index,0.49514938909406603
+3,Time-dependent Cox: landmark-aligned,AUC@3,0.6990423677026917
+3,Time-dependent Cox: landmark-aligned,Risk_C-index@3,0.6332170793173504
+3,Time-dependent Cox: landmark-aligned,Brier@3,0.18002706238686803
+3,Time-dependent Cox: landmark-aligned,Binary_NLL@3,0.5745946389009331
+3,Time-dependent Cox: landmark-aligned,ECE@3,0.1318870561165949
+3,Time-dependent Cox: landmark-aligned,AUC@5,0.695133377425044
+3,Time-dependent Cox: landmark-aligned,Risk_C-index@5,0.6332185886402724
+3,Time-dependent Cox: landmark-aligned,Brier@5,0.1826283311536712
+3,Time-dependent Cox: landmark-aligned,Binary_NLL@5,0.5705155511651456
+3,Time-dependent Cox: landmark-aligned,ECE@5,0.08629237771912031
+3,Time-dependent Cox: landmark-aligned,MAE_event_time,1.6876111111111107
+3,Time-dependent Cox: landmark-aligned,EventTime_C-index,0.5095248287558072
+3,RDSM,AUC@3,0.7766321871225018
+3,RDSM,Risk_C-index@3,0.6795752437162655
+3,RDSM,Brier@3,0.17514204307014958
+3,RDSM,Binary_NLL@3,0.5461306109104521
+3,RDSM,ECE@3,0.13632573722046787
+3,RDSM,AUC@5,0.7905919312169312
+3,RDSM,Risk_C-index@5,0.7134005409392643
+3,RDSM,Brier@5,0.17601054043033917
+3,RDSM,Binary_NLL@5,0.5312232842456103
+3,RDSM,ECE@5,0.10637770464628685
+3,RDSM,MAE_event_time,1.6779761904761903
+3,RDSM,EventTime_C-index,0.4946073971908718
+4,Landmark Transformer,AUC@3,0.7729380896226414
+4,Landmark Transformer,Risk_C-index@3,0.5933954655434511
+4,Landmark Transformer,Brier@3,0.15527253192082183
+4,Landmark Transformer,Binary_NLL@3,0.4719358101463224
+4,Landmark Transformer,ECE@3,0.04174707084958888
+4,Landmark Transformer,AUC@5,0.66871921182266
+4,Landmark Transformer,Risk_C-index@5,0.6506512919069367
+4,Landmark Transformer,Brier@5,0.20458349396420628
+4,Landmark Transformer,Binary_NLL@5,0.5991821228459764
+4,Landmark Transformer,ECE@5,0.1269808764373755
+4,Landmark Transformer,MAE_event_time,2.0482086167800455
+4,Landmark Transformer,EventTime_C-index,0.6618811465847756
+4,Time-dependent Cox: landmark-aligned,AUC@3,0.6758225235849057
+4,Time-dependent Cox: landmark-aligned,Risk_C-index@3,0.5753279519118216
+4,Time-dependent Cox: landmark-aligned,Brier@3,0.17417560183457712
+4,Time-dependent Cox: landmark-aligned,Binary_NLL@3,0.5327509703753321
+4,Time-dependent Cox: landmark-aligned,ECE@3,0.10126391517692421
+4,Time-dependent Cox: landmark-aligned,AUC@5,0.6002770935960591
+4,Time-dependent Cox: landmark-aligned,Risk_C-index@5,0.5911007900918548
+4,Time-dependent Cox: landmark-aligned,Brier@5,0.20124750270127345
+4,Time-dependent Cox: landmark-aligned,Binary_NLL@5,0.5932279884267435
+4,Time-dependent Cox: landmark-aligned,ECE@5,0.1399214335853308
+4,Time-dependent Cox: landmark-aligned,MAE_event_time,1.1642063492063492
+4,Time-dependent Cox: landmark-aligned,EventTime_C-index,0.5630828986225547
+4,RDSM,AUC@3,0.7664805424528301
+4,RDSM,Risk_C-index@3,0.6152936229465796
+4,RDSM,Brier@3,0.1662871156633834
+4,RDSM,Binary_NLL@3,0.5360656297325208
+4,RDSM,ECE@3,0.1297383809120249
+4,RDSM,AUC@5,0.6631157635467979
+4,RDSM,Risk_C-index@5,0.664264360452737
+4,RDSM,Brier@5,0.1828243040707033
+4,RDSM,Binary_NLL@5,0.5566103426798502
+4,RDSM,ECE@5,0.11568770360939891
+4,RDSM,MAE_event_time,1.1318707482993198
+4,RDSM,EventTime_C-index,0.555916105653919
+5,Landmark Transformer,AUC@3,0.6650803283765976
+5,Landmark Transformer,Risk_C-index@3,0.5742636697195951
+5,Landmark Transformer,Brier@3,0.2025429563465194
+5,Landmark Transformer,Binary_NLL@3,0.5813492560503916
+5,Landmark Transformer,ECE@3,0.14420825193816886
+5,Landmark Transformer,AUC@5,0.609472049689441
+5,Landmark Transformer,Risk_C-index@5,0.5709371026849398
+5,Landmark Transformer,Brier@5,0.22393761889353886
+5,Landmark Transformer,Binary_NLL@5,0.6440982107772008
+5,Landmark Transformer,ECE@5,0.13801037087828297
+5,Landmark Transformer,MAE_event_time,1.824944444444444
+5,Landmark Transformer,EventTime_C-index,0.4974663711438641
+5,Time-dependent Cox: landmark-aligned,AUC@3,0.637130259174304
+5,Time-dependent Cox: landmark-aligned,Risk_C-index@3,0.611025067929998
+5,Time-dependent Cox: landmark-aligned,Brier@3,0.203104137288923
+5,Time-dependent Cox: landmark-aligned,Binary_NLL@3,0.6431269549113228
+5,Time-dependent Cox: landmark-aligned,ECE@3,0.1416204835324394
+5,Time-dependent Cox: landmark-aligned,AUC@5,0.6119162640901771
+5,Time-dependent Cox: landmark-aligned,Risk_C-index@5,0.5872659736245354
+5,Time-dependent Cox: landmark-aligned,Brier@5,0.2191215520201357
+5,Time-dependent Cox: landmark-aligned,Binary_NLL@5,0.6750363077868938
+5,Time-dependent Cox: landmark-aligned,ECE@5,0.11561129022213601
+5,Time-dependent Cox: landmark-aligned,MAE_event_time,1.7000714285714285
+5,Time-dependent Cox: landmark-aligned,EventTime_C-index,0.4473961836608887
+5,RDSM,AUC@3,0.5558961382720112
+5,RDSM,Risk_C-index@3,0.5436152833597804
+5,RDSM,Brier@3,0.24436791790465426
+5,RDSM,Binary_NLL@3,1.2014659599512816
+5,RDSM,ECE@3,0.20583449793135064
+5,RDSM,AUC@5,0.5465263400046009
+5,RDSM,Risk_C-index@5,0.5305511928801341
+5,RDSM,Brier@5,0.27561630342392
+5,RDSM,Binary_NLL@5,1.2287969437040038
+5,RDSM,ECE@5,0.23549802194228156
+5,RDSM,MAE_event_time,2.512785714285714
+5,RDSM,EventTime_C-index,0.45111311389789566

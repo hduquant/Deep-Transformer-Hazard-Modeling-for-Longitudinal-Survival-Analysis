@@ -1,0 +1,37 @@
+method,metric,value,n_landmark_records,n_people
+Landmark Transformer,AUC@3,0.732600397189461,1339,347
+Landmark Transformer,Risk_C-index@3,0.5944016959286672,1339,347
+Landmark Transformer,Brier@3,0.17130607400288506,1339,347
+Landmark Transformer,Binary_NLL@3,0.5084194087428925,1339,347
+Landmark Transformer,ECE@3,0.04566897676035438,1339,347
+Landmark Transformer,AUC@5,0.6727289237115542,878,334
+Landmark Transformer,Risk_C-index@5,0.6248554613501579,878,334
+Landmark Transformer,Brier@5,0.19881561725638988,878,334
+Landmark Transformer,Binary_NLL@5,0.5856760091452788,878,334
+Landmark Transformer,ECE@5,0.06442662926775485,878,334
+Time-dependent Cox: landmark-aligned,AUC@3,0.6879142903329638,1339,347
+Time-dependent Cox: landmark-aligned,Risk_C-index@3,0.6089901238365872,1339,347
+Time-dependent Cox: landmark-aligned,Brier@3,0.1860524208283589,1339,347
+Time-dependent Cox: landmark-aligned,Binary_NLL@3,0.5759876806312283,1339,347
+Time-dependent Cox: landmark-aligned,ECE@3,0.10507827068255605,1339,347
+Time-dependent Cox: landmark-aligned,AUC@5,0.6562945544642025,878,334
+Time-dependent Cox: landmark-aligned,Risk_C-index@5,0.6184637257575742,878,334
+Time-dependent Cox: landmark-aligned,Brier@5,0.20002111270141773,878,334
+Time-dependent Cox: landmark-aligned,Binary_NLL@5,0.606493234315836,878,334
+Time-dependent Cox: landmark-aligned,ECE@5,0.09108931249243794,878,334
+RDSM,AUC@3,0.704928101756673,1339,347
+RDSM,Risk_C-index@3,0.6154411722784533,1339,347
+RDSM,Brier@3,0.19001985035964492,1339,347
+RDSM,Binary_NLL@3,0.6697150831577056,1339,347
+RDSM,ECE@3,0.1355960477398352,1339,347
+RDSM,AUC@5,0.6705991539884832,878,334
+RDSM,Risk_C-index@5,0.6319316262274485,878,334
+RDSM,Brier@5,0.20394097489842633,878,334
+RDSM,Binary_NLL@5,0.688799178841478,878,334
+RDSM,ECE@5,0.0902662290662589,878,334
+Landmark Transformer,MAE_event_time,2.387732255166217,290,106
+Landmark Transformer,EventTime_C-index,0.5352193486626328,1816,369
+Time-dependent Cox: landmark-aligned,MAE_event_time,1.591979110512129,290,106
+Time-dependent Cox: landmark-aligned,EventTime_C-index,0.4882303008766506,1816,369
+RDSM,MAE_event_time,1.7439862982929017,290,106
+RDSM,EventTime_C-index,0.4870830673278017,1816,369

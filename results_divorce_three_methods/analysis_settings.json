@@ -1,0 +1,117 @@
+{
+  "analysis_condition": "S-FS 5-TV predictors + actual irregular assessment times + R1 Transformer + simulation-aligned Cox",
+  "data": "/Users/hduquant/Desktop/deep learning/deep survive analysis/real data example/Molly/analysis 14 final model but cox no negligible ridge/github/Divorce_data.csv",
+  "seed": 20260817,
+  "folds": 5,
+  "inner_val_fraction": 0.15,
+  "min_history_visits": 3,
+  "horizons": [
+    3,
+    5
+  ],
+  "assessment_years_since_baseline": [
+    0.0,
+    0.82,
+    1.57,
+    2.34,
+    4.15,
+    8.77,
+    9.94,
+    10.76,
+    11.44,
+    12.04
+  ],
+  "horizon_definition": "wave-based (+3 and +5 waves); actual mean years used for time encoding and continuous-time Cox/RDSM durations",
+  "event_time_mae_unit": "years",
+  "transformer": {
+    "d_model": 16,
+    "nhead": 2,
+    "ffn": 64,
+    "dropout": 0.3,
+    "weight_decay": 0.001,
+    "layers": 1,
+    "epochs": 10,
+    "batch_size": 16,
+    "lr": 0.0003,
+    "w_grid": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0
+    ],
+    "beta_selection_rule": "minimum average validation rank",
+    "beta_selection_metrics": [
+      "Risk C-index@3",
+      "Risk C-index@5",
+      "Brier@3",
+      "Brier@5",
+      "Binary NLL@3",
+      "Binary NLL@5",
+      "ECE@3",
+      "ECE@5"
+    ],
+    "beta_selection_excludes": [
+      "AUC",
+      "MAE_event_time",
+      "EventTime_C-index"
+    ]
+  },
+  "primary_cv_summary": "mean of fold-specific outer-test metrics with SD and SE",
+  "secondary_cv_summary": "pooled out-of-fold metrics",
+  "cox": {
+    "ridge": 1e-05,
+    "ridge_tuned": false,
+    "type": "simulation-aligned start-stop time-dependent Cox; landmark-aligned prediction using current covariates"
+  },
+  "rdsm": {
+    "k": 3,
+    "hidden": 32,
+    "layers": 1,
+    "type": "LSTM",
+    "distribution": "Weibull",
+    "iters": 100,
+    "lr": 0.001,
+    "batch_size": 64
+  },
+  "baseline_covariates": [
+    "H1AGE",
+    "W1AGE",
+    "H1ACE",
+    "W1ACE",
+    "H1PARENTMARR",
+    "W1PARENTMARR",
+    "H1ABUSE",
+    "W1ABUSE",
+    "H1EDUC",
+    "W1EDUC",
+    "T1_household_comp",
+    "T1_Couple_unemployment",
+    "T1_Neighbor_Employ",
+    "T1_Neighbor_Income",
+    "T1_Couple_Hostility",
+    "T1_Income",
+    "H1POS",
+    "W1POS",
+    "H1NEG",
+    "W1NEG",
+    "H1EFF",
+    "W1EFF",
+    "H1Substance",
+    "W1Substance",
+    "H1Neg_Affect",
+    "W1Neg_Affect"
+  ],
+  "time_varying_covariates": [
+    "W_rel_sat",
+    "H_rel_sat",
+    "W_stress",
+    "H_stress",
+    "Couple_Fin_Strain"
+  ]
+}
